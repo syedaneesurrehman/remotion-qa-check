@@ -1,0 +1,14 @@
+{
+  "name": "remotion-qa-check",
+  "version": "0.1.0",
+  "description": "Catch overlapping, clipped and low-contrast text, and near-empty stretches, in a Remotion composition before you render it.",
+  "type": "module",
+  "bin": { "remotion-qa": "bin/qa.mjs" },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "license": "MIT",
+  "author": "syedaneesurrehman",
+  "repository": { "type": "git", "url": "git+https://github.com/syedaneesurrehman/remotion-qa-check.git" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "jpeg-js": "^0.4.4" },
+  "peerDependencies": { "remotion": ">=4" }
+}
