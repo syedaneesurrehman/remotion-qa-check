@@ -2,6 +2,8 @@
 
 Catch layout and emptiness problems in a [Remotion](https://remotion.dev) composition before you render the final video.
 
+![A flawed slide on the left, the checker's report on the right](docs/demo.png)
+
 One low-resolution render gives two checks:
 
 | Check | What it flags |
